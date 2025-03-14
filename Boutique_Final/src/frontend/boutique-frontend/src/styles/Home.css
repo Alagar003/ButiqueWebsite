@@ -1,0 +1,238 @@
+
+body{
+    font-family: 'Popins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}/* General Page Layout */
+.homepage {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+
+/* Header */
+.header {
+    background-color: #ff3385; /* Pink header */
+    color: white;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.h-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo {
+    font-size: 2em;
+}
+.container1{
+    display: flex;
+}
+.img-style{
+    width: 200px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    /*margin: 0 10px;*/
+    font-weight: 600;
+}
+.navbar a:hover {
+    color: #ff3385;
+}
+
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.menu li a {
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.icons {
+    /*margin-left: 80vh;*/
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-bar {
+    flex-direction: row;
+    display: flex;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+/* Banner Section */
+.banner {
+    /*padding: 20px;*/
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'popins', sans-serif;
+    display: flex;
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+}
+
+
+
+/* Hero Section*/
+/*.hero {*/
+/*    display: flex;*/
+/*    color: black;*/
+/*    font-size: 22px;*/
+/*    font-weight: bold;*/
+/*     width: 100%;*/
+/*     height: auto;*/
+/*     padding: 0 20px;*/
+/*     margin-left: 20px;*/
+/*}*/
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+/*.text{*/
+/*    flex : 1;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.banner{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+.banner-img {
+    display: flex;
+    width: 200%;
+    height: 300px;
+}
+
+
+/*.banner-text h2 {*/
+/*    font-size: 3em;*/
+/*    color: black;*/
+/*    margin-left: 20px;*/
+/*}*/
+
+/*.banner-image {*/
+/*    width: 100%;*/
+/*    max-width: 600px;*/
+/*    margin: 20px 0;*/
+/*}*/
+
+.quote {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: left;
+}
+
+.category-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.category {
+    flex: 1 1 calc(50% - 20px); /* Each container takes 50% of the row */
+    max-width: 450px; /* Maximum width for larger screens */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.category:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.category img {
+    width: 70%;
+    height: 300px;
+    /*object-fit: cover;*/
+}
+
+.category h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #ff3385;
+}
+li{
+   font-weight: bold;
+    cursor: pointer;
+
+}
+
+li:hover {
+    color: #ff3385;
+}
+
+.heading{
+        margin: 10px 0;
+        font-size: 2em;
+        color: #ff3385;
+        text-align: center;
+        font-weight: bold;
+        align-items: center;
+    }
+
+.para{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #373131;
+}
+
+@media (max-width: 768px) {
+    .category {
+        flex: 1 1 calc(100% - 20px); /* Each container takes the full width on smaller screens */
+    }
+}

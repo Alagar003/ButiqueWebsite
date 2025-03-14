@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+#      uri: mongodb+srv://Alagar:alagu@cluster0.0kkhc.mongodb.net/botiqueDB?retryWrites=true&w=majority&appName=Cluster0
+
+  mail:
+    host: smtp.your-email-provider.com  # Replace with actual SMTP host
+    port: 587
+    username: your-email@example.com    # Replace with actual email
+    password: your-email-password       # Replace with actual password
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+      mail.debug: true  # Enable debug for mail sending logs
+
+jwt:
+  secret: your-secret-key
+  expiration: 86400000  # 1 day in milliseconds

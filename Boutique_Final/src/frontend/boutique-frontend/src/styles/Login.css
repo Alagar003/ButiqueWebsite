@@ -1,0 +1,91 @@
+.login-container {
+    display: flex;
+    width: 70%;
+    height: 70vh;
+    background-color: #f8f0f5; /* Light pink background */
+    align-items: center;
+    margin-left: 30vh;
+    border-radius: 50px;
+
+}
+
+.image{
+    height: 70vh;
+    width: 70vh;
+
+}
+
+/* Right side - Form */
+.login-form {
+    flex: 1;
+    background-color: #f8e1e7;  /* Soft pink */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 70vh;
+}
+
+.login-form h2 {
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.login-form label {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.sign-in-button {
+    background-color: #d81b60;  /* Bright pink */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in-button:hover {
+    background-color: #c2185b;
+}
+
+.extras {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forgot-password, .create-account {
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.create-account {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}

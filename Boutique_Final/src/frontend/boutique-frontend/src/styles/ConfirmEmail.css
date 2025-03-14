@@ -1,0 +1,89 @@
+/*body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    background: linear-gradient(135deg, #6c63ff, #8a85ff);*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 100vh;*/
+/*    color: #333;*/
+/*}*/
+
+/*.confirmation-container {*/
+/*    text-align: center;*/
+/*    background: #fff;*/
+/*    padding: 30px;*/
+/*    border-radius: 12px;*/
+/*    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);*/
+/*    width: 90%;*/
+/*    max-width: 400px;*/
+/*}*/
+
+/*.confirmation-container h1 {*/
+/*    font-size: 1.8em;*/
+/*    color: #6c63ff;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*.confirmation-container p {*/
+/*    font-size: 1em;*/
+/*    color: #555;*/
+/*    margin: 10px 0;*/
+/*}*/
+
+/*form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*label {*/
+/*    font-size: 1em;*/
+/*    margin-bottom: 5px;*/
+/*    color: #555;*/
+/*}*/
+
+/*input {*/
+/*    padding: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 8px;*/
+/*    font-size: 1em;*/
+/*    width: 100%;*/
+/*    margin-bottom: 15px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*input:focus {*/
+/*    border-color: #6c63ff;*/
+/*    outline: none;*/
+/*    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);*/
+/*}*/
+
+/*button {*/
+/*    padding: 10px 15px;*/
+/*    background: #6c63ff;*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    border-radius: 8px;*/
+/*    font-size: 1em;*/
+/*    cursor: pointer;*/
+/*    transition: background 0.3s ease;*/
+/*}*/
+
+/*button:hover {*/
+/*    background: #5754d8;*/
+/*}*/
+
+/*.success-message {*/
+/*    color: #28a745;*/
+/*    font-weight: bold;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.error-message {*/
+/*    color: #dc3545;*/
+/*    font-weight: bold;*/
+/*    margin-top: 10px;*/
+/*}*/

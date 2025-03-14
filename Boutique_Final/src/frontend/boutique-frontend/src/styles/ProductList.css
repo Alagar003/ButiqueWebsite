@@ -1,0 +1,84 @@
+/* General Styles for the Product List Page */
+.heading {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #333;
+    text-transform: capitalize;
+}
+
+/* Styling for the Grid Section */
+.category-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+/* Styling for Individual Product Cards */
+.category {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add hover effect to product cards */
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Image */
+.category img {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Product Name */
+.category h2 {
+    font-size: 1.2rem;
+    color: #444;
+    margin: 0.5rem 0;
+}
+
+/* Product Description */
+.para {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+/* Price Styling */
+.category p {
+    font-weight: bold;
+    color: #ff6f61;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Button Styling */
+.sign-in-button {
+    background-color: #1976d2;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect on buttons */
+.sign-in-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
